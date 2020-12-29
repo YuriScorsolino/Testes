@@ -110,6 +110,7 @@ nav a{
    position: absolute;
    top: 105%;
    left: 35%;
+   display: flex;
 }
 
 .img-container1:hover img{
@@ -134,6 +135,27 @@ nav a{
 }
 
 .img-container2:hover img{
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.img-container3{
+   width: 300px;
+   height: 200px;
+   overflow: hidden;
+}
+
+.img-container3 img{
+   width: 25%;
+   height: 25%;
+   -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+   position: absolute;
+   top: 125%;
+   left: 65%;
+}
+
+.img-container3:hover img{
    -webkit-transform: scale(1.1);
    transform: scale(1.1);
 }
