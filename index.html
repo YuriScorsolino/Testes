@@ -3,150 +3,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<title> Menu lateral</title>
-	<style>
-
-		*{
-	margin: 0;
-	padding: 0;
-}
-
-	body{
-	background-image: url("teste.jpeg");
-}
-
-#check{
-	display: none;
-}
-
-#icone{
-	cursor: pointer;
-	padding: 15px;
-	position: absolute;
-	z-index: 1;
-}
-
-.barra{
-	background-color: #333;
-	height:100%;
-	width: 300px;
-	position: absolute;
-	transition: all .2s linear ;
-	left: -300px;
-}
-
-nav{
-	width: 100%;
-	position: absolute;
-	top: 60px;
-}
-
-nav a{
-	text-decoration: none;
-}
-
-.link{
-	background-color: #494950;
-	padding: 20px;
-	font-family: 'Courier New, monospace';
-	font-size: 12pt;
-	transition: all .2s linear;
-	color: red;
-	border-bottom: 2px solid #222;
-	opacity: 2;
-	margin-top: 200px;
-}
-
-.link:hover{
-	background-color: #050542;
-}
-
-#check:checked ~ .barra{
-	transform: translateX(300px);
-	opacity: 0.5
-
-}
-
-#check:checked ~ .barra nav a .link{
-	opacity: 50;
-	margin-top: 0;
-	transition-delay: 0.2s;
-
-}
-
-#foto{
-	top: 0%;
-	left: 0%;
-	width: 1007px;
-	height: 625px;
-	position: absolute;
-
-}
-
-.img-container{
-   width: 300px;
-   height: 200px;
-   overflow: hidden;
-}
-
-.img-container img{
-   width: 25%;
-   height: 25%;
-   -webkit-transition: -webkit-transform .5s ease;
-   transition: transform .5s ease;
-   position: absolute;
-   top: 105%;
-   left: 5%;
-}
-
-.img-container:hover img{
-   -webkit-transform: scale(1.1);
-   transform: scale(1.1);
-}
-
-.img-container1{
-   width: 300px;
-   height: 200px;
-   overflow: hidden;
-}
-
-.img-container1 img{
-   width: 25%;
-   height: 25%;
-   -webkit-transition: -webkit-transform .5s ease;
-   transition: transform .5s ease;
-   position: absolute;
-   top: 105%;
-   left: 35%;
-}
-
-.img-container1:hover img{
-   -webkit-transform: scale(1.1);
-   transform: scale(1.1);
-}
-
-.img-container2{
-   width: 300px;
-   height: 200px;
-   overflow: hidden;
-}
-
-.img-container2 img{
-   width: 25%;
-   height: 25%;
-   -webkit-transition: -webkit-transform .5s ease;
-   transition: transform .5s ease;
-   position: absolute;
-   top: 105%;
-   left: 65%;
-}
-
-.img-container2:hover img{
-   -webkit-transform: scale(1.1);
-   transform: scale(1.1);
-}
-
-
-	  </style>
+	<link rel="stylesheet" href="menu.css"/>
 </head>
 <body>
 
@@ -170,9 +27,8 @@ nav a{
 
 <div class="img-container">
    <img src="9.jpg">
-   <h2>Primeiras fotos</h2>
+   <h1>Primeiras fotos</h1>
 </div>
- <p> bem vindo</p>
 
  <div class="img-container1">
    <img src="5.jpg">
@@ -184,7 +40,10 @@ nav a{
    <h2>Primeiras fotos</h2>
 </div>
 
-<p>Lorem ipsum</p>
+<div class="img-container3">
+   <img src="4.jpg">
+   <h2>Primeiras fotos</h2>
+</div>
 
 </body>
 </html>
