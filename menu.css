@@ -151,8 +151,8 @@ nav a{
    -webkit-transition: -webkit-transform .5s ease;
    transition: transform .5s ease;
    position: absolute;
-   top: 125%;
-   left: 65%;
+   top: 135%;
+   left: 5%;
 }
 
 .img-container3:hover img{
