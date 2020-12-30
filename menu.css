@@ -84,7 +84,7 @@ nav a{
 .img-container img{
    width: 25%;
    height: 25%;
-   -webkit-transition: -webkit-transform 5s ease;
+   -webkit-transition: -webkit-transform .5s ease;
    transition: transform .5s ease;
    position: absolute;
    top: 105%;
@@ -200,9 +200,4 @@ nav a{
 .img-container5:hover img{
    -webkit-transform: scale(1.1);
    transform: scale(1.1);
-}
-
-h1{
-   z-index: 1;
-   position: absolute;
 }
