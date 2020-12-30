@@ -4,7 +4,9 @@
 }
 
 	body{
-	background-image: url("teste.jpeg");
+   background-image: url("teste.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 #check{
