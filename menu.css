@@ -139,6 +139,14 @@ nav a{
    transform: scale(1.1);
 }
 
+#hi{
+   font-size: 20pt;
+   color: red;
+   position: absolute;
+   top: 131%;
+   left: 6.5%;
+
+}
 
 #oi{
    margin-top: 100%;

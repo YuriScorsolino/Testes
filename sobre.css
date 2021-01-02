@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#miniatura{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    padding-left: 40%;
+}
+
+#hi{
+    margin-top: 60px;
+    padding-left: 40%;
+}
