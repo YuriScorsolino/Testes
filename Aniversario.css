@@ -97,8 +97,9 @@ nav a{
     color:black;
     font-style: italic;
     position: absolute;
-    top: 660px;
+    top: 860px;
     left: 35%;
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87
 
 }
 
@@ -106,7 +107,8 @@ nav a{
     font-size:20pt;
     color:black;
     position: absolute;
-    top: 685px;
+    top: 885px;
     left: 32%;
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87
 
 }
