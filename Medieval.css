@@ -75,21 +75,57 @@ nav a{
 }
 
 #f1{
-    top: 750px;
-    widows: 400px;
+    top: 670px;
+    width: 320px;
     height: 400px;
     padding: 5px;
     position: absolute;
-    left: 28%;
+    left: 33%;
 }
 
 #f2{
     top: 1170px;
-    widows: 400px;
+    width: 320px;
     height: 400px;
     padding: 5px;
     position: absolute;
-    left: 28%;
+    left: 33%;
+}
+
+#f3{
+    top: 1590px;
+    width: 320px;
+    height: 400px;
+    padding: 5px;
+    position: absolute;
+    left: 33%;
+}
+
+#f4{
+    top: 2010px;
+    width: 320px;
+    height: 400px;
+    padding: 5px;
+    position: absolute;
+    left: 33%;
+}
+
+#f5{
+    top: 2430px;
+    width: 320px;
+    height: 400px;
+    padding: 5px;
+    position: absolute;
+    left: 33%;
+}
+
+#f6{
+    top: 2850px;
+    width: 320px;
+    height: 400px;
+    padding: 5px;
+    position: absolute;
+    left: 33%;
 }
 
 #fui{
@@ -97,19 +133,13 @@ nav a{
     color:black;
     font-style: italic;
     position: absolute;
-    top: 675px;
-    left: 35%;
-    text-shadow: 0 0 0.2em rgb(236, 13, 13), 0 0 0.2em rgb(226, 14, 14);
+    top: 1080px;
+    left: 2%;
+    text-shadow: 0 0 0.2em rgb(253, 253, 253), 0 0 0.2em rgb(253, 253, 253);
 
 }
 
-#fui1{
-    font-size:20pt;
-    color:black;
-    position: absolute;
-    top: 710px;
-    left: 32%;
-    text-shadow: 0 0 0.2em red, 0 0 0.2em red;
-    font-style: italic;
-
-}
+#te{
+    width: 40px;
+    height: 40px;
+ }

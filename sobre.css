@@ -3,9 +3,67 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
+#check{
+	display: none;
+}
+
+#icone{
+	cursor: pointer;
+	padding: 15px;
+	position: absolute;
+	z-index: 1;
+}
+
+.barra{
+	background-color: #333;
+	height:100%;
+	width: 300px;
+	transition: all .2s linear ;
+   left: -300px;
+   position:absolute;
+}
+
+nav{
+	width: 100%;
+	position: absolute;
+	top: 60px;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+.link{
+	background-color: #494950;
+	padding: 20px;
+	font-family: 'Courier New, monospace';
+	font-size: 13pt;
+	transition: all .2s linear;
+	color: rgb(236, 30, 30);
+	border-bottom: 2px solid #222;
+   margin-top: 200px;
+   text-decoration: underline;
+}
+
+.link:hover{
+	background-color: #050542;
+}
+
+#check:checked ~ .barra{
+	transform: translateX(300px);
+	opacity: 0.8
+
+}
+
+#check:checked ~ .barra nav a .link{
+	margin-top: 0;
+	transition-delay: 0.2s;
+
+}
+
 /* Slideshow container */
 .slideshow-container {
-  max-width: 657px;
+  width: 657px;
   position: relative;
   margin: auto;
 }

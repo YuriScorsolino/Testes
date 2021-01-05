@@ -4,9 +4,7 @@
 }
 
 	body{
-   background-image: url("teste.jpeg");
-   background-repeat: no-repeat;
-   background-size:cover;
+   background-color: rgb(61, 60, 60);
 }
 
 #check{
@@ -17,7 +15,12 @@
 	cursor: pointer;
 	padding: 15px;
 	position: absolute;
-	z-index: 1;
+   z-index: 1;
+}
+
+#te{
+   width: 40px;
+   height: 40px;
 }
 
 .barra{
@@ -32,7 +35,7 @@
 nav{
 	width: 100%;
 	position: absolute;
-	top: 60px;
+	top: 70px;
 }
 
 nav a{
@@ -71,7 +74,7 @@ nav a{
 	top: 0%;
 	left: 0%;
 	width: 1007px;
-	height: 640px;
+	height: 657px;
 	position: absolute;
 
 }
@@ -84,7 +87,7 @@ nav a{
 
 .img-container img{
    width: 25%;
-   height: 25%;
+   height: 35%;
    -webkit-transition: -webkit-transform .5s ease;
    transition: transform .5s ease;
    position: absolute;
@@ -105,7 +108,7 @@ nav a{
 
 .img-container1 img{
    width: 25%;
-   height: 25%;
+   height: 35%;
    -webkit-transition: -webkit-transform .5s ease;
    transition: transform .5s ease;
    position: absolute;
@@ -126,7 +129,7 @@ nav a{
 
 .img-container2 img{
    width: 25%;
-   height: 25%;
+   height: 35%;
    -webkit-transition: -webkit-transform .5s ease;
    transition: transform .5s ease;
    position: absolute;
@@ -141,10 +144,12 @@ nav a{
 
 #hi{
    font-size: 20pt;
-   color: red;
+   color: rgb(0, 0, 0);
    position: absolute;
-   top: 131%;
-   left: 6.5%;
+   top: 142%;
+   left: 6.9%;
+   font-style: italic;
+   text-shadow: 0 0 0.2em rgb(253, 253, 253), 0 0 0.2em rgb(253, 253, 253);
 
 }
 
