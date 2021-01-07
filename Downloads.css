@@ -1,0 +1,207 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+	body{
+   background-color: rgb(61, 60, 60);
+}
+
+#check{
+	display: none;
+}
+
+#icone{
+	cursor: pointer;
+	padding: 15px;
+	position: absolute;
+   z-index: 1;
+}
+
+#te{
+   width: 40px;
+   height: 40px;
+}
+
+.barra{
+	background-color: #333;
+	height:100%;
+	width: 300px;
+	transition: all .2s linear ;
+   left: -300px;
+   position:absolute;
+}
+
+nav{
+	width: 100%;
+	position: absolute;
+	top: 70px;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+.link{
+	background-color: #494950;
+	padding: 20px;
+	font-family: 'Courier New, monospace';
+	font-size: 13pt;
+	transition: all .2s linear;
+	color: rgb(236, 30, 30);
+	border-bottom: 2px solid #222;
+   margin-top: 200px;
+   text-decoration: underline;
+}
+
+.link:hover{
+	background-color: #050542;
+}
+
+#check:checked ~ .barra{
+	transform: translateX(300px);
+	opacity: 0.8
+
+}
+
+#check:checked ~ .barra nav a .link{
+	margin-top: 0;
+	transition-delay: 0.2s;
+
+}
+
+#foto{
+	top: 0%;
+	left: 0%;
+	width: 1007px;
+	height: 657px;
+	position: absolute;
+
+}
+
+#nome{
+  position: absolute;
+  font-size: 25pt;
+  font-style: italic;
+  color:black;
+  margin-left:35%;
+  text-shadow: 4px 4px 9px rgb(252, 252, 252), 4px 4px 9px rgb(255, 255, 255);
+
+}
+
+#foto1{
+    width: 300px;
+    height: 350px;
+    margin-top: 670px;
+    margin-left:5px;
+    border-radius: 20px;
+    border: 0px white; 
+    position: absolute;
+}
+
+#foto2{
+    width: 300px;
+    height: 350px;
+    margin-top: 670px;
+    margin-left:355px;
+    border-radius: 20px;
+    border: 0px white;
+    position: absolute;
+}
+
+#foto3{
+    width: 300px;
+    height: 350px;
+    margin-top: 670px;
+    margin-left:700px;
+    border-radius: 20px;
+    border: 0px white;
+    position: absolute;
+}
+
+#foto4{
+    width: 300px;
+    height: 350px;
+    margin-top: 1070px;
+    margin-left:5px;
+    border-radius: 20px;
+    border: 0px white;
+    position: absolute;
+}
+
+#foto5{
+    width: 300px;
+    height: 350px;
+    margin-top: 1070px;
+    margin-left:355px;
+    border-radius: 20px;
+    border: 0px white;
+    position: absolute;
+}
+
+#foto6{
+    width: 300px;
+    height: 350px;
+    margin-top: 1070px;
+    margin-left:700px;
+    border-radius: 20px;
+    border: 0px white;
+    position: absolute;
+}
+
+.btn-hover{
+    min-height: 35px;
+    width: 90px; 
+    border-radius: 30px;
+    border: 0px white; 
+    background-color: rgb(149, 165, 166);
+    font-family: "Do Hyeon", sans-serif;
+  }
+
+  #teste1{
+    margin-top: 1025px;
+    margin-left: 0%;
+    min-height: 35px;
+    width: 90px; 
+    position: absolute;
+  }
+
+  #teste2{
+    margin-top: 1025px;
+    margin-left: 35%;
+    min-height: 35px;
+    width: 90px; 
+    position: absolute;
+  }
+
+  #teste3{
+    margin-top: 1025px;
+    margin-left: 69%;
+    min-height: 35px;
+    width: 90px; 
+    position: absolute;
+  }
+
+  #teste4{
+    margin-top: 1425px;
+    margin-left: 0%;
+    min-height: 35px;
+    width: 90px; 
+    position: absolute;
+  }
+
+  #teste5{
+    margin-top: 1425px;
+    margin-left: 35%;
+    min-height: 35px;
+    width: 90px; 
+    position: absolute;
+  }
+
+  #teste6{
+    margin-top: 1425px;
+    margin-left: 69%;
+    min-height: 35px;
+    width: 90px; 
+    position: absolute;
+  }

@@ -158,3 +158,13 @@ nav a{
    width: 200px;
    height: 200px;
 }
+
+#nome{
+   position: absolute;
+   font-size: 25pt;
+   font-style: italic;
+   color:black;
+   margin-left:30%;
+   text-shadow: 4px 4px 9px rgb(252, 252, 252), 4px 4px 9px rgb(255, 255, 255);
+
+}
