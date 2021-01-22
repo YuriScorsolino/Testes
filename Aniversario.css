@@ -7,65 +7,50 @@ body{
     background-color: rgb(77, 76, 76);
 }
 
-#check{
-	display: none;
+
+ul{
+    list-style:none;
+
 }
 
-#icone{
-	cursor: pointer;
-	padding: 15px;
-	position: absolute;
-	z-index: 1;
+a{
+    text-decoration:none;
+    color:white;
+    display: block;
+    padding: 0px 20px;
 }
 
-.barra{
-	background-color: #333;
-	height:100%;
-	width: 300px;
-	transition: all .2s linear ;
-   left: -300px;
-   position:absolute;
+a:hover{
+background-color: rgba(255, 255, 255, .3) ;
 }
 
 nav{
-	width: 100%;
-	position: absolute;
-	top: 70px;
-}
-
-nav a{
-	text-decoration: none;
-}
-
-.link{
-	background-color: #494950;
-	padding: 20px;
-	font-family: 'Courier New, monospace';
-	font-size: 13pt;
-	transition: all .2s linear;
-	color: rgb(236, 30, 30);
-	border-bottom: 2px solid #222;
-   margin-top: 200px;
-   text-decoration: underline;
-}
-
-.link:hover{
-	background-color: #050542;
-}
-
-#check:checked ~ .barra{
-	transform: translateX(300px);
-	opacity: 0.8
+    background-color: black;
+    height: 50px;
 
 }
 
-#check:checked ~ .barra nav a .link{
-	margin-top: 0;
-	transition-delay: 0.2s;
-
+ul#ul-1{
+background-color: blue;
+width: 90%;
+margin: auto;
 }
 
-#foto{
+.li-p{
+    line-height: 50px;
+    float: left;
+     
+}
+
+ul li ul li{
+    background-color:black;
+}
+
+.ul-albuns{
+    display: none;
+}
+
+#topo{
 	top: 0%;
 	left: 0%;
 	width: 1007px;
@@ -85,6 +70,24 @@ nav a{
 
 #f2{
     top: 1170px;
+    widows: 400px;
+    height: 400px;
+    padding: 5px;
+    position: absolute;
+    left: 28%;
+}
+
+#f3{
+    top: 1590px;
+    widows: 400px;
+    height: 400px;
+    padding: 5px;
+    position: absolute;
+    left: 28%;
+}
+
+#f4{
+    top: 2010px;
     widows: 400px;
     height: 400px;
     padding: 5px;

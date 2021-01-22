@@ -7,75 +7,54 @@
    background-color: rgb(61, 60, 60);
 }
 
-#check{
-	display: none;
+ul{
+   list-style:none;
+
 }
 
-#icone{
-	cursor: pointer;
-	padding: 15px;
-	position: absolute;
-   z-index: 1;
+a{
+   text-decoration:none;
+   color:white;
+   display: block;
+   padding: 0px 20px;
 }
 
-#te{
-   width: 40px;
-   height: 40px;
-}
-
-.barra{
-	background-color: #333;
-	height:100%;
-	width: 300px;
-	transition: all .2s linear ;
-   left: -300px;
-   position:absolute;
+a:hover{
+background-color: rgba(255, 255, 255, .3) ;
 }
 
 nav{
-	width: 100%;
-	position: absolute;
-	top: 70px;
-}
-
-nav a{
-	text-decoration: none;
-}
-
-.link{
-	background-color: #494950;
-	padding: 20px;
-	font-family: 'Courier New, monospace';
-	font-size: 13pt;
-	transition: all .2s linear;
-	color: rgb(236, 30, 30);
-	border-bottom: 2px solid #222;
-   margin-top: 200px;
-   text-decoration: underline;
-}
-
-.link:hover{
-	background-color: #050542;
-}
-
-#check:checked ~ .barra{
-	transform: translateX(300px);
-	opacity: 0.8
+   background-color: black;
+   height: 50px;
 
 }
 
-#check:checked ~ .barra nav a .link{
-	margin-top: 0;
-	transition-delay: 0.2s;
-
+ul#ul-1{
+background-color: blue;
+width: 90%;
+margin: auto;
 }
 
-#foto{
+.li-p{
+   line-height: 50px;
+   float: left;
+    
+}
+
+ul li ul li{
+   background-color:black;
+}
+
+.ul-albuns{
+   display: none;
+}
+
+#topo{
 	top: 0%;
 	left: 0%;
 	width: 1007px;
-	height: 657px;
-	position: absolute;
+   height: 625px;
+   position: absolute;
 
 }
 
@@ -91,7 +70,7 @@ nav a{
    -webkit-transition: -webkit-transform .5s ease;
    transition: transform .5s ease;
    position: absolute;
-   top: 105%;
+   top: 115%;
    left: 5%;
 }
 
@@ -112,7 +91,7 @@ nav a{
    -webkit-transition: -webkit-transform .5s ease;
    transition: transform .5s ease;
    position: absolute;
-   top: 105%;
+   top: 115%;
    left: 38%;
 }
 
@@ -133,7 +112,7 @@ nav a{
    -webkit-transition: -webkit-transform .5s ease;
    transition: transform .5s ease;
    position: absolute;
-   top: 105%;
+   top: 115%;
    left: 70%;
 }
 
@@ -166,5 +145,5 @@ nav a{
    color:black;
    margin-left:30%;
    text-shadow: 4px 4px 9px rgb(252, 252, 252), 4px 4px 9px rgb(255, 255, 255);
-
+   top: 8%;
 }

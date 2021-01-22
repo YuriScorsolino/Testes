@@ -1,0 +1,96 @@
+*{
+	margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(61, 60, 60);
+ }
+
+ ul{
+    list-style:none;
+
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    display: block;
+    padding: 0px 20px;
+}
+
+a:hover{
+background-color: rgba(255, 255, 255, .3) ;
+}
+
+nav{
+    background-color: black;
+    height: 50px;
+
+}
+
+ul#ul-1{
+background-color: blue;
+width: 90%;
+margin: auto;
+}
+
+.li-p{
+    line-height: 50px;
+    float: left;
+     
+}
+
+ul li ul li{
+    background-color:black;
+}
+
+.ul-albuns{
+    display: none;
+}
+
+div#denun{
+	width: 420px;
+    margin: 70px auto 0px auto; 
+
+}
+input{
+    display: block;
+    height: 35px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.678) ;
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: rgba(255,255,255,0.2);
+    outline: none;
+ }
+
+
+h1, h3, h4, h5, h6 {
+  text-align: center;
+  font-style: italic;
+  position: absolute;
+  left: 38%;
+  margin-top: 4%;
+  color:black;
+  text-shadow: 0 0 0.2em rgb(253, 253, 253), 0 0 0.2em rgb(253, 253, 253);
+  font-size: 22px;
+}
+
+h2{
+  text-align: center;
+  font-style: italic;
+  position: absolute;
+  left: 37%;
+  margin-top: 0%;  
+  color:black;
+  text-shadow: 0 0 0.2em rgb(253, 253, 253), 0 0 0.2em rgb(253, 253, 253);
+  font-size: 25px;
+}
+
+.submit{
+    margin-left: 5%;
+    background-color: green;
+}

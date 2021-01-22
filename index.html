@@ -3,28 +3,57 @@
 <head>
 	<meta charset="UTF-8" />
 	<title> DarkSide Photos</title>
-	<link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="menu.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="novo/novomenu.js"></script>
 </head>
 <body>
-	<div id="topo">
-		<img id="foto" src="mp.jpg">
+	<div>
+		<img id="topo" src="mp.jpg">
 		<p id="nome"> Bem vindo ao DarkSide Photos </p>
 	</div>
 	
-	<input type="checkbox" id="check">
-	<label id="icone" for="check"><img id="te" src="icone2.png"></label>
+    <nav>
 
-	<div class="barra">
-		
-		<nav>
-			<a href="index.html"><div class="link"> Home</div></a>
-			<a href="Medieval.html"><div class="link">Medieval</div><a>
-			<a href="Aniversario.html"><div class="link">Aniversario</div></a>
-			<a href="Downloads.html"><div class="link">Downloads</div></a>
-			<a href="Sobre.html"><div class="link">Contatos</div></a>
-		</nav>
+        <ul id="ul-1">
 
-	</div>
+            <li class="li-p">
+                <a href="index.html">Home </a>
+
+             </li>
+
+            <li class="li-p">
+                <a href="javascript://" class="bt1">Albuns
+                    <img src="novo/seta.png" width="20"> </a> 
+                <ul class="ul-albuns">
+
+                    <li><a href="Medieval.html">Medieval </a></li> 
+                    <li><a href="Aniversario.html">Aniversario </a></li> 
+                    <li><a href="verao.html">Verão </a></li>  
+
+                </ul>
+            
+            </li>
+
+            <li class="li-p">
+                <a href="novo.php">Contatos </a> 
+            
+            </li>
+
+            <li class="li-p">
+                <a href="Downloads.html">Downloads </a>
+             </li>
+
+            <li class="li-p">
+                <a href="Sobre.html">Sobre </a>
+
+             </li>
+
+
+
+        </ul>
+
+    </nav>
 
 <div class="img-container">
 	<a href="Medieval.html">
